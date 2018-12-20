@@ -216,6 +216,7 @@ You can add links to the accounts you have on other sites, with respective icon,
 From `Minima-3.0` onwards, the usernames are to be nested under `minima.social_links`, with the keys being simply the social-network's name:
 
 ```yaml
+<<<<<<< master
 minima:
   social_links:
     twitter: jekyllrb
@@ -241,6 +242,31 @@ minima:
     youtube: jekyll
     youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     youtube_channel_name: CloudCannon
+=======
+twitter_username: jekyllrb
+github_username:  jekyll
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+telegram_username: jekyll
+googleplus_username: +jekyll
+microdotblog_username: jekyll
+gitlab_username:  jekyll
+rss: rss
+
+mastodon:
+ - username: jekyll
+   instance: example.com
+ - username: jekyll2
+   instance: example.com
+
+youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+youtube_channel_name: CloudCannon
+>>>>>>> add gitlab support
 ```
 
 
